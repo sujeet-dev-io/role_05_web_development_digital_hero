@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO Meta -->
+  <title>Pricing — NovaCraft | Plans for Every Team Size</title>
+  <meta name="description" content="Transparent pricing for NovaCraft workflow automation. Starter at $29/mo, Professional at $79/mo, Enterprise at $149/mo. 14-day free trial on all plans.">
+  <link rel="canonical" href="https://novacraft-site.github.io/pricing.html">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Pricing — NovaCraft | Plans for Every Team Size">
+  <meta property="og:description" content="Transparent pricing. Starter $29/mo, Professional $79/mo, Enterprise $149/mo. Start with a 14-day free trial.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://novacraft-site.github.io/pricing.html">
+  <meta property="og:image" content="https://novacraft-site.github.io/img/product-dashboard.png">
+  <meta property="og:site_name" content="NovaCraft">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Pricing — NovaCraft">
+  <meta name="twitter:description" content="Transparent pricing. Start with a 14-day free trial on all plans.">
+  <meta name="twitter:image" content="https://novacraft-site.github.io/img/product-dashboard.png">
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages/pricing.css">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://novacraft-site.github.io/#org",
+        "name": "NovaCraft",
+        "url": "https://novacraft-site.github.io/"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://novacraft-site.github.io/#website",
+        "name": "NovaCraft",
+        "url": "https://novacraft-site.github.io/",
+        "publisher": { "@id": "https://novacraft-site.github.io/#org" }
+      },
+      {
+        "@type": "Product",
+        "name": "NovaCraft Starter Plan",
+        "description": "Workflow automation for small teams. Up to 5 users, 1,000 executions/mo, 50+ integrations.",
+        "brand": { "@id": "https://novacraft-site.github.io/#org" },
+        "offers": {
+          "@type": "Offer",
+          "price": "29",
+          "priceCurrency": "USD",
+          "priceValidUntil": "2026-12-31",
+          "availability": "https://schema.org/InStock",
+          "url": "https://novacraft-site.github.io/pricing.html"
+        }
+      },
+      {
+        "@type": "Product",
+        "name": "NovaCraft Professional Plan",
+        "description": "Advanced workflow automation. Up to 25 users, 25,000 executions/mo, 200+ integrations, AI Copilot.",
+        "brand": { "@id": "https://novacraft-site.github.io/#org" },
+        "offers": {
+          "@type": "Offer",
+          "price": "79",
+          "priceCurrency": "USD",
+          "priceValidUntil": "2026-12-31",
+          "availability": "https://schema.org/InStock",
+          "url": "https://novacraft-site.github.io/pricing.html"
+        }
+      },
+      {
+        "@type": "Product",
+        "name": "NovaCraft Enterprise Plan",
+        "description": "Enterprise workflow automation. Unlimited users, unlimited executions, SSO, RBAC, dedicated support.",
+        "brand": { "@id": "https://novacraft-site.github.io/#org" },
+        "offers": {
+          "@type": "Offer",
+          "price": "149",
+          "priceCurrency": "USD",
+          "priceValidUntil": "2026-12-31",
+          "availability": "https://schema.org/InStock",
+          "url": "https://novacraft-site.github.io/pricing.html"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is there a free trial?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes! All plans include a 14-day free trial with full access to features. No credit card required to start."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I change plans later?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Absolutely. You can upgrade or downgrade your plan at any time. Changes take effect immediately and billing is prorated."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What counts as an execution?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "An execution is one complete run of a workflow from trigger to final action. Multi-step workflows count as a single execution regardless of the number of steps."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you offer discounts for startups or nonprofits?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We offer 50% off for eligible startups (under $5M funding) and nonprofit organizations. Contact our sales team to apply."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is your uptime guarantee?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We guarantee 99.9% uptime on all plans, backed by SLA credits. Enterprise customers can negotiate custom SLAs up to 99.99%."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://novacraft-site.github.io/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Pricing",
+            "item": "https://novacraft-site.github.io/pricing.html"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ═══ NAVBAR ═══ -->
+  <header class="navbar" role="banner">
+    <div class="container navbar__inner">
+      <a href="index.html" class="navbar__logo" aria-label="NovaCraft home">
+        <span class="navbar__logo-icon">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13 3L4 14h7l-2 7 9-11h-7l2-7z"/></svg>
+        </span>
+        NovaCraft
+      </a>
+      <button class="navbar__toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-menu" id="nav-toggle">
+        <span class="navbar__toggle-bar" aria-hidden="true"></span>
+        <span class="navbar__toggle-bar" aria-hidden="true"></span>
+        <span class="navbar__toggle-bar" aria-hidden="true"></span>
+      </button>
+      <nav id="nav-menu" class="navbar__links" role="navigation" aria-label="Primary navigation">
+        <a href="index.html" class="navbar__link">Home</a>
+        <a href="product.html" class="navbar__link">Product</a>
+        <a href="pricing.html" class="navbar__link" aria-current="page">Pricing</a>
+        <a href="contact.html" class="navbar__link">Contact</a>
+        <span class="navbar__cta">
+          <a href="contact.html" class="btn btn--primary btn--sm">Get Started</a>
+        </span>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ═══ MAIN ═══ -->
+  <main id="main-content">
+
+    <!-- Pricing Hero -->
+    <section class="pricing-hero" aria-labelledby="pricing-hero-title">
+      <div class="container">
+        <span class="badge badge--brand" style="margin-bottom: var(--space-4); display: inline-flex;">Pricing</span>
+        <h1 id="pricing-hero-title" class="pricing-hero__title">Simple, transparent <span class="gradient-text">pricing</span></h1>
+        <p class="pricing-hero__text">No surprises. No hidden fees. Start free and scale when you're ready.</p>
+
+        <!-- Billing Toggle -->
+        <div class="pricing-toggle" role="group" aria-label="Billing period toggle">
+          <span class="pricing-toggle__label pricing-toggle__label--active" id="toggle-monthly">Monthly</span>
+          <button class="pricing-toggle__switch" role="switch" aria-checked="false" aria-labelledby="toggle-monthly toggle-annual" id="billing-toggle">
+            <span class="sr-only">Toggle annual billing</span>
+          </button>
+          <span class="pricing-toggle__label" id="toggle-annual">Annual</span>
+          <span class="pricing-toggle__save">Save 20%</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Cards -->
+    <section class="section" aria-labelledby="plans-title">
+      <div class="container">
+        <h2 id="plans-title" class="sr-only">Available Plans</h2>
+
+        <div class="pricing-cards">
+          <!-- Starter -->
+          <div class="pricing-card reveal reveal-delay-1">
+            <h3 class="pricing-card__name">Starter</h3>
+            <p class="pricing-card__desc">For small teams getting started with automation.</p>
+            <div class="pricing-card__price">
+              <span class="pricing-card__amount" data-monthly="$29" data-annual="$23">$29</span>
+              <span class="pricing-card__period">/ month</span>
+            </div>
+            <hr class="pricing-card__divider">
+            <ul class="pricing-card__features">
+              <li class="pricing-card__feature">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Up to 5 users
+              </li>
+              <li class="pricing-card__feature">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                1,000 executions / month
+              </li>
+              <li class="pricing-card__feature">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                50+ integrations
+              </li>
+              <li class="pricing-card__feature">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Visual workflow builder
+              </li>
+              <li class="pricing-card__feature">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Email support
+              </li>
+            </ul>
+            <a href="contact.html" class="btn btn--secondary pricing-card__cta">Start Free Trial</a>
+          </div>
+
+          <!-- Professional (Featured) -->
+          <div class="pricing-card pricing-card--featured reveal reveal-delay-2">
+            <h3 class="pricing-card__name">Professional</h3>
+            <p class="pricing-card__desc">For growing teams that need advanced automation.</p>
+            <div class="pricing-card__price">
+              <span class="pricing-card__amount" data-monthly="$79" data-annual="$63">$79</span>
+              <span class="pricing-card__period">/ month</span>
+            </div>
+            <hr class="pricing-card__divider">
+            <ul class="pricing-card__features">
+              <li class="pricing-card__feature">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Up to 25 users
+              </li>
+              <li class="pricing-card__feature">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                25,000 executions / month
+              </li>
+              <li class="pricing-card__feature">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                200+ integrations
+              </li>
+              <li class="pricing-card__feature">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                AI Copilot included
+              </li>
+              <li class="pricing-card__feature">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Real-time analytics
+              </li>
+              <li class="pricing-card__feature">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Priority support
+              </li>
+            </ul>
+            <a href="contact.html" class="btn btn--primary pricing-card__cta">Start Free Trial</a>
+          </div>
+
+          <!-- Enterprise -->
+          <div class="pricing-card reveal reveal-delay-3">
+            <h3 class="pricing-card__name">Enterprise</h3>
+            <p class="pricing-card__desc">For organizations that need full control and scale.</p>
+            <div class="pricing-card__price">
+              <span class="pricing-card__amount" data-monthly="$149" data-annual="$119">$149</span>
+              <span class="pricing-card__period">/ month</span>
+            </div>
+            <hr class="pricing-card__divider">
+            <ul class="pricing-card__features">
+              <li class="pricing-card__feature">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Unlimited users
+              </li>
+              <li class="pricing-card__feature">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Unlimited executions
+              </li>
+              <li class="pricing-card__feature">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                SSO &amp; RBAC
+              </li>
+              <li class="pricing-card__feature">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Audit logging
+              </li>
+              <li class="pricing-card__feature">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                99.99% SLA
+              </li>
+              <li class="pricing-card__feature">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Dedicated account manager
+              </li>
+            </ul>
+            <a href="contact.html" class="btn btn--secondary pricing-card__cta">Contact Sales</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" aria-labelledby="faq-title" style="background: var(--color-bg-secondary);">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-header__badge">
+            <span class="badge badge--brand">FAQ</span>
+          </div>
+          <h2 id="faq-title" class="section-header__title">Frequently asked <span class="gradient-text">questions</span></h2>
+        </div>
+
+        <div class="faq__list">
+          <details class="faq-item reveal">
+            <summary class="faq-item__trigger">
+              Is there a free trial?
+              <svg class="faq-item__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </summary>
+            <div class="faq-item__content">
+              <p class="faq-item__answer">Yes! All plans include a 14-day free trial with full access to features. No credit card required to start.</p>
+            </div>
+          </details>
+
+          <details class="faq-item reveal">
+            <summary class="faq-item__trigger">
+              Can I change plans later?
+              <svg class="faq-item__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </summary>
+            <div class="faq-item__content">
+              <p class="faq-item__answer">Absolutely. You can upgrade or downgrade your plan at any time. Changes take effect immediately and billing is prorated.</p>
+            </div>
+          </details>
+
+          <details class="faq-item reveal">
+            <summary class="faq-item__trigger">
+              What counts as an execution?
+              <svg class="faq-item__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </summary>
+            <div class="faq-item__content">
+              <p class="faq-item__answer">An execution is one complete run of a workflow from trigger to final action. Multi-step workflows count as a single execution regardless of the number of steps.</p>
+            </div>
+          </details>
+
+          <details class="faq-item reveal">
+            <summary class="faq-item__trigger">
+              Do you offer discounts for startups or nonprofits?
+              <svg class="faq-item__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </summary>
+            <div class="faq-item__content">
+              <p class="faq-item__answer">Yes. We offer 50% off for eligible startups (under $5M funding) and nonprofit organizations. Contact our sales team to apply.</p>
+            </div>
+          </details>
+
+          <details class="faq-item reveal">
+            <summary class="faq-item__trigger">
+              What is your uptime guarantee?
+              <svg class="faq-item__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </summary>
+            <div class="faq-item__content">
+              <p class="faq-item__answer">We guarantee 99.9% uptime on all plans, backed by SLA credits. Enterprise customers can negotiate custom SLAs up to 99.99%.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section cta-section" aria-labelledby="pricing-cta-title">
+      <div class="container">
+        <div class="cta-section__box reveal">
+          <h2 id="pricing-cta-title" class="cta-section__title">Still not sure?</h2>
+          <p class="cta-section__text">Start your free trial — no credit card needed. Or talk to our team for a personalized recommendation.</p>
+          <div class="cta-section__actions">
+            <a href="contact.html" class="btn btn--primary btn--lg">Start Free Trial</a>
+            <a href="contact.html" class="btn btn--secondary btn--lg">Talk to Sales</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__brand-name">
+            <span class="navbar__logo-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M13 3L4 14h7l-2 7 9-11h-7l2-7z" fill="#fff"/></svg>
+            </span>
+            NovaCraft
+          </div>
+          <p class="footer__brand-text">AI-powered workflow automation for enterprise teams. Connect, automate, and scale your operations.</p>
+        </div>
+        <nav aria-label="Product links">
+          <h3 class="footer__heading">Product</h3>
+          <ul class="footer__list">
+            <li><a href="product.html" class="footer__link">Features</a></li>
+            <li><a href="pricing.html" class="footer__link">Pricing</a></li>
+            <li><a href="product.html#integrations" class="footer__link">Integrations</a></li>
+            <li><a href="#" class="footer__link">Changelog</a></li>
+          </ul>
+        </nav>
+        <nav aria-label="Company links">
+          <h3 class="footer__heading">Company</h3>
+          <ul class="footer__list">
+            <li><a href="#" class="footer__link">About</a></li>
+            <li><a href="#" class="footer__link">Blog</a></li>
+            <li><a href="#" class="footer__link">Careers</a></li>
+            <li><a href="contact.html" class="footer__link">Contact</a></li>
+          </ul>
+        </nav>
+        <nav aria-label="Legal links">
+          <h3 class="footer__heading">Legal</h3>
+          <ul class="footer__list">
+            <li><a href="#" class="footer__link">Privacy Policy</a></li>
+            <li><a href="#" class="footer__link">Terms of Service</a></li>
+            <li><a href="#" class="footer__link">Security</a></li>
+            <li><a href="#" class="footer__link">GDPR</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2025 NovaCraft, Inc. All rights reserved.</p>
+        <div class="footer__socials">
+          <a href="#" class="footer__social-link" aria-label="NovaCraft on Twitter">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+          <a href="#" class="footer__social-link" aria-label="NovaCraft on LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+          <a href="#" class="footer__social-link" aria-label="NovaCraft on GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/nav.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
