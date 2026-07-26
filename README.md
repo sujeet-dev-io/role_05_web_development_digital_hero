@@ -72,7 +72,7 @@ A comprehensive two-part web engineering submission demonstrating **hand-built r
 ### Overview
 NovaCraft is a multi-page, hand-coded marketing site for a fictional B2B enterprise software company. Built from scratch without page builders, CSS frameworks, or heavy JS libraries.
 
-### 🌐 Live URL & Pages
+### 🌐 Live URL & Pages    https://role-05-web-development-digi-git-feb0f6-sujeet-dev-ios-projects.vercel.app/
 - **Home**: [`task-a-marketing-site/index.html`](./task-a-marketing-site/index.html)
 - **Product**: [`task-a-marketing-site/product.html`](./task-a-marketing-site/product.html)
 - **Pricing**: [`task-a-marketing-site/pricing.html`](./task-a-marketing-site/pricing.html)
